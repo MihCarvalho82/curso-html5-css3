@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+        body {
+            font-size: 15pt;
+        }
+
+        h2{
+            font-weight: normal; /* Define o peso da fonte como normal, tira o negrito dos títulos */
+        }
+
+        h2#padrao {
+            font-family: Arial, Helvetica, sans-serif; /* Fonte padrão do sistema, o navegador vai tentar carregar a primeira, se não funcionar, passa para a próxima*/
+        }
+
+        h2#google {
+             font-family: 'Roboto', sans-serif; /* A importação desta fonte aconteceu na linha 8, tambem podemos importar fontes locais*/
+            font-weight: 700; /* Define o peso da fonte como negrito */
+        }
+        </style>
+</head>
+<body>
+    <h1>Fontes em CSS</h1>
+    <h2 id="padrao">Podemos configurar fontes padrão do sistema</h2>
+    <h2 id="google">Ou podemos importar fontes do Google Fonts</h2> 
+    <h2 id="local"> Ou ainda usar um arquivo local de fontes que não usamos aqui</h2>
+</body>
+</html>

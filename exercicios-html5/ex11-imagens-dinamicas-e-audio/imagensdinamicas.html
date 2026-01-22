@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em HTML5</title>
+</head>
+<body>
+    
+    <h1>Exemplo de Imagens Dinâmicas com HTML5</h1>
+    <p>Tente abrir este sites em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+   
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1090px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-g.png" alt="Imagem Flexível" style="width:100%; height:auto;">
+        
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Exemplo de áudio em HTML5</p>
+    <audio controls preload="metadata"> 
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+         </audio>
+     <audio controls preload="metadata"> 
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+</body>
+</html>
