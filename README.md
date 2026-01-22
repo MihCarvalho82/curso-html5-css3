@@ -1,4 +1,4 @@
-#  Meus Estudos de HTML5 e CSS3
+ #  Meus Estudos de HTML5 e CSS3
 
 Repositório dedicado ao armazenamento de todos os exercícios e desafios realizados durante o curso de **HTML5 e CSS3** do professor Gustavo Guanabara (Curso em Vídeo).
 
