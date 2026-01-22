@@ -17,22 +17,22 @@ Repositório dedicado ao armazenamento de todos os exercícios e desafios realiz
 Concluído com foco em semântica, listas, links e multimídia.
 
 ### ⏳ Módulo 2 (CSS3 - Design e Estilo)
+
 | Capítulo | Tópicos Principais | Status |
-| :--- | :--- | :---: |
-| **Cap. 13** | Psicologia, Harmonia e Paleta de Cores, Degradê | 🏃 Construindo |
-| **Cap. 14** | Tipografia, Fontes Externas (Google Fonts) e Alinhamentos | 📅 Próximo |
-| **Cap. 15** | IDs, Classes, Pseudo-classes e Pseudo-elementos | 📅 Próximo |
-| **Cap. 16** | Modelo de Caixas (Box Model), Sombras e Bordas | 📅 Próximo |
-| **Cap. 17** | Projeto Real, Variáveis CSS e Responsividade | 📅 Próximo |
-
+| :--- | :--- | :--- |
+| **Cap. 13** | Psicologia, Harmonia e Degradê | ✅ Concluído |
+| **Cap. 14** | Tipografia e Google Fonts | ✅ Concluído |
+| **Cap. 15** | IDs, Classes e Pseudo-elementos | 🚀 **Começando Agora** |
+| **Cap. 16** | Box Model, Sombras e Bordas | 📅 Próximo |
+| **Cap. 17** | Projeto Real e Responsividade | 📅 Próximo |
 ---
+### 📝 Checkpoint de Aprendizado (Módulo 2)
 
-## 📝 Checkpoint de Aprendizado (Módulo 2)
-- [✅] Dominar o uso de cores (Hexadecimal, RGB, HSL).
-- [✅] Configurar fontes personalizadas e seguras para web.
-- [ ] Entender a diferença crucial entre `id` e `class`.
-- [ ] Dominar o **Box Model** (Padding, Border, Margin).
-- [ ] Criar o projeto final do módulo com responsividade.
+- [x] 🎨 **Cores:** Dominar o uso de Hexadecimal, RGB e HSL.
+- [x] 🔤 **Fontes:** Configurar fontes personalizadas (Google Fonts) e seguras.
+- [ ] 🆔 **Seletores:** Entender a diferença crucial entre `id` e `class`.
+- [ ] 📦 **Box Model:** Dominar Padding, Border e Margin (o coração do CSS!).
+- [ ] 📱 **Responsividade:** Criar o projeto final que funciona no celular.
 
 ---
 **Mih Carvalho**
