@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: dimgray;
+    }
+
+    header {
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    nav {
+        background-color: rgb(102, 102, 102);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    }   
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.315);
+    }
+
+    article {
+        background-color: lightgray;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+
+    article > aside {
+        background-color: gray;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+
+    footer {
+        color: white;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+        background-color: black;
+    }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>  
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+    </nav>
+    </header>
+    <main>  
+        <section id="assuntos">
+           <p>Programação da Páscoa</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Missas e Confissões</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laudantium ullam voluptates sunt doloribus reprehenderit, facere blanditiis pariatur. Alias id voluptates aliquid error a laudantium fugit illum veniam doloribus voluptatum.</p>
+                <aside>
+                    <p>Artigo escrito por mim</p>
+            </aside>
+            </article>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
