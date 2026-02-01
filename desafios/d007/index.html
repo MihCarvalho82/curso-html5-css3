@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 7</title>
+</head>
+<body>
+    <header>
+    <h1>Desafio da Imagem Flexível</h1>
+    <p>Crie uma página HTML que exiba uma imagem que se ajuste automaticamente ao tamanho da tela do dispositivo, mantendo sua proporção original.</p>
+    </header>
+    <main>
+       <picture>
+    <source media="(max-width: 600px)" srcset="imagens/paisagem-p.png">
+    <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png">
+   <img src="imagens/paisagem-g.png" alt="Mulher na montanha">
+</picture>
+    </main>
+    <footer>
+    <p> Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>

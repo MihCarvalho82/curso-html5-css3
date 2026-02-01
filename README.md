@@ -25,16 +25,16 @@ Concluído com foco em semântica, listas, links e multimídia.
 | :--- | :--- | :--- |
 | **Cap. 13** | Psicologia, Harmonia e Degradê | ✅ Concluído |
 | **Cap. 14** | Tipografia e Google Fonts | ✅ Concluído |
-| **Cap. 15** | IDs, Classes e Pseudo-elementos | 🚀 **Começando Agora** |
-| **Cap. 16** | Box Model, Sombras e Bordas | 📅 Próximo |
-| **Cap. 17** | Projeto Real e Responsividade | 📅 Próximo |
+| **Cap. 15** | IDs, Classes e Pseudo-elementos | ✅ Concluído |
+| **Cap. 16** | Box Model, Sombras e Bordas | ✅ Concluído |
+| **Cap. 17** | Projeto Real e Responsividade | 🚀 **Começando Agora** |
 ---
 ### 📝 Checkpoint de Aprendizado (Módulo 2)
 
 - [x] 🎨 **Cores:** Dominar o uso de Hexadecimal, RGB e HSL.
 - [x] 🔤 **Fontes:** Configurar fontes personalizadas (Google Fonts) e seguras.
-- [ ] 🆔 **Seletores:** Entender a diferença crucial entre `id` e `class`.
-- [ ] 📦 **Box Model:** Dominar Padding, Border e Margin (o coração do CSS!).
+- [x] 🆔 **Seletores:** Entender a diferença crucial entre `id` e `class`.
+- [x] 📦 **Box Model:** Dominar Padding, Border e Margin (o coração do CSS!).
 - [ ] 📱 **Responsividade:** Criar o projeto final que funciona no celular.
 
 ---
