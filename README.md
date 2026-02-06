@@ -1,43 +1,31 @@
- #  Meus Estudos de HTML5 e CSS3
+# 🔘 About Me | Sobre Mim
 
-Repositório dedicado ao armazenamento de todos os exercícios e desafios realizados durante o curso de **HTML5 e CSS3** do professor Gustavo Guanabara (Curso em Vídeo).
-
-> Status: 🚧 Estudando Módulo 2 (Design e CSS3)
+Olá! Eu sou a **Michelle Carvalho**. Atualmente, estou mergulhando no mundo do Desenvolvimento Web através do curso de HTML5 e CSS3 do Curso em Vídeo. Adoro o desafio de transformar linhas de código em interfaces bonitas e funcionais. No momento, estou focada em dominar Git, GitHub e as melhores práticas de estilização.
 
 ---
-## 🛠️ Tecnologias e Ferramentas
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/MihCarvalho82/curso-html5-css3/tree/main/exercicios-html5)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/MihCarvalho82/curso-html5-css3/tree/main/exercicios-css)
 
-### 📊 Meu Tempo de Código
+Hi there! I'm **Michelle Carvalho**. I'm currently diving into the Web Development world through the HTML5 and CSS3 course at @cursoemvideo. I love the challenge of turning lines of code into beautiful and functional interfaces. Right now, I'm focused on mastering Git, GitHub, and styling best practices.
 
-![Minhas Estatísticas](https://wakatime.com/share/@49293354-0a18-46f3-aafb-645ccb84349c/110aa837-997d-4072-a7a9-a1c99ee47716.svg)
----
+# 💻 Tech Stack
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
-## 📂 Progresso do Curso
+# 📊 System Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=MihCarvalho82&theme=neon&hide_border=false&include_all_commits=true&count_private=true" height="150em" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MihCarvalho82&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="150em" />
+</p>
 
-### ✅ Módulo 1 (HTML5 - Estruturação)
-Concluído com foco em semântica, listas, links e multimídia.
+### 📈 Connectivity & Trophies
+![](https://nirzak-streak-stats.vercel.app/?user=MihCarvalho82&theme=tokyonight&hide_border=false)
 
-### ⏳ Módulo 2 (CSS3 - Design e Estilo)
-
-| Capítulo | Tópicos Principais | Status |
-| :--- | :--- | :--- |
-| **Cap. 13** | Psicologia, Harmonia e Degradê | ✅ Concluído |
-| **Cap. 14** | Tipografia e Google Fonts | ✅ Concluído |
-| **Cap. 15** | IDs, Classes e Pseudo-elementos | ✅ Concluído |
-| **Cap. 16** | Box Model, Sombras e Bordas | ✅ Concluído |
-| **Cap. 17** | Projeto Real e Responsividade | 🚀 **Começando Agora** |
----
-### 📝 Checkpoint de Aprendizado (Módulo 2)
-
-- [x] 🎨 **Cores:** Dominar o uso de Hexadecimal, RGB e HSL.
-- [x] 🔤 **Fontes:** Configurar fontes personalizadas (Google Fonts) e seguras.
-- [x] 🆔 **Seletores:** Entender a diferença crucial entre `id` e `class`.
-- [x] 📦 **Box Model:** Dominar Padding, Border e Margin (o coração do CSS!).
-- [ ] 📱 **Responsividade:** Criar o projeto final que funciona no celular.
+![](https://github-profile-trophy.vercel.app/?username=MihCarvalho82&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
 
 ---
-**Mih Carvalho**
-*Focada em transformar linhas de código em experiências visuais incríveis.*
 
+### 🌐 Social Grid
+[LinkedIn](https://www.linkedin.com/in/michelle-carvalho-603b82183/) | **Mih Carvalho**
+
+---
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=MihCarvalho82&icon=5&color=0" />
+</p>
