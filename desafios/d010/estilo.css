@@ -245,3 +245,11 @@ footer > a:hover {
     text-decoration: underline;
     color: var(--cor2);
 }
+
+/* Media Query para celulares pequenos/médios */
+@media screen and (max-width: 400px) {
+    main h2 {
+        font-size: 1.2em; /* Diminui um pouquinho para caber em uma linha */
+        padding: 2px 5px; /* Reduz o respiro lateral para ganhar espaço */
+    }
+}
