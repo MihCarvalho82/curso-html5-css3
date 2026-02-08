@@ -55,7 +55,7 @@ header > p {
     max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     margin: auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -117,16 +117,17 @@ main h1 {
     color: var(--cor5);
     text-align: center;
     margin-bottom: 10px;
-}
 
-main h2 {
+}
+    main h2 {
     color: var(--cor3);
     background-image: linear-gradient(to right, var(--cor6), transparent);
     font-family: var(--fonte-mascote);
-    font-size: 1.3em;
+    font-size: 1.3em; /* Ajuste para o tamanho que você preferir */
     line-height: 1.6;
-    font-size: 1.8em;
-    margin: 0 20px 20px 20px;
+    margin: 0 0 20px 0; /* Removi as margens laterais para o fundo encostar nas bordas */
+    padding: 2px 10px; /* Isso dá o espaço entre o texto e o início da cor */
+    text-indent: 8px; /* Dá um recuo na primeira linha, opcional mas fica bonito */
 }
 
 main p {
