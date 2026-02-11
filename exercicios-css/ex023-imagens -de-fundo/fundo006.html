@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos de Fundo</title>
+    
+    <style>    
+    body {
+            /* Usar min-height é melhor que height fixo para evitar cortes em telas pequenas */
+            min-height: 100vh; 
+            background-image: url('imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed; /* Adicionei para ficar elegante ao rolar */
+        }
+
+        /* TUDO QUE É IGUAL FICA NA CLASSE */
+        .container {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px auto; /* Centraliza e dá margem vertical */
+            width: 400px;
+            max-width: 90%; /* BOA PRÁTICA: evita que a caixa vaze no seu S20 */
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        /* O ID você só usaria se quisesse mudar a COR de uma caixa específica, por exemplo */
+
+        h1 {
+           color: white;
+            text-shadow: 1px 1px 2px black;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: justify;
+            padding: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Diferenças de Background Size</h1>
+        <section class="container" id="box1">
+            <h2>Usando background-size: <strong>AUTO</strong></h2>
+            <p>O valor auto é o padrão do navegador. Ele mantém a imagem de fundo com o seu tamanho original, sem
+                esticar ou encolher. Se a imagem for maior que a caixa, ela será cortada; se for menor, ela poderá se
+                repetir para preencher o espaço, a menos que o 'no-repeat' seja usado."</p>
+        </section>
+        <section class="container" id="box2">
+            <h2>Usando background-size: <strong>CONTAIN</strong></h2>
+            <p>O valor contain redimensiona a imagem de fundo para que ela se encaixe completamente dentro da caixa,
+                mantendo suas proporções. Isso significa que a imagem pode ser redimensionada para caber dentro da
+                caixa, mas não será cortada. Se a proporção da imagem for diferente da caixa, pode haver espaço vazio ao
+                redor da imagem nas laterais ou em cima, estilo trailler de filme.</p>
+        </section>
+        <section class="container" id="box3">
+            <h2>Usando background-size: <strong>COVER</strong></h2>
+            <p>O valor cover é o mais utilizado em sites modernos. Ele estica e amplia a imagem para que ela cubra 100%
+                da área da caixa, sem deixar nenhum espaço vazio. Isso significa que a imagem pode ser redimensionada
+                para cobrir toda a caixa, mas partes da imagem podem ser cortadas se a proporção da imagem for diferente
+                da caixa. O cover é útil quando você deseja garantir que a imagem de fundo preencha toda a área, mesmo
+                que isso signifique cortar partes da imagem.</p>
+        </section>
+    </main>
+</body>
+
+</html>
