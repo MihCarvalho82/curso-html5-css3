@@ -10,11 +10,20 @@
     body {
             /* Usar min-height é melhor que height fixo para evitar cortes em telas pequenas */
             min-height: 100vh; 
-            background-image: url('imagens/wallpaper002.jpg');
+            /*background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
-            background-attachment: fixed; /* Adicionei para ficar elegante ao rolar */
+            background-attachment: fixed; /* O background-attachment: fixed cria o efeito 'Parallax', onde a imagem 
+de fundo fica presa na tela enquanto o conteúdo rola por cima dela. 
+Se usar 'scroll' (padrão), a imagem sobe junto com o texto  */
+
+/* Shorthand para background:
+color> image> repeat> position> size> attachment*/
+
+background: black url('imagens/wallpaper002.jpg') no-repeat center center / cover fixed; /*Para o background-size funcionar dentro da linha única, ele precisa vir logo após a posição, separado por uma barra /.
+
+O modelo correto é este: background: cor imagem posição / tamanho repetição attachment;*/
         }
 
         /* TUDO QUE É IGUAL FICA NA CLASSE */
