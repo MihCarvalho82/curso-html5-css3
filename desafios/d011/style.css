@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Mantenha o fundo no body para o efeito parallax/fixo funcionar */
+    background: #000 url('imagens/espacoweb.jpg') center center / cover no-repeat fixed;
+    min-height: 100vh;
+}   
+
+#container-astronauta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container-astronauta img {
+    /* Em vez de fixar largura e altura, usamos apenas uma para manter a proporção */
+    max-width: 80%;      /* No seu S20, ele não vai bater nas bordas laterais */
+    max-height: 80vh;    /* Ele não vai bater no topo ou no fundo */
+    height: auto;        /* Garante que a proporção original da imagem seja mantida */
+    
+}
+
