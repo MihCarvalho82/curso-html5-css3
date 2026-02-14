@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+tr.linha {
+    background-color: gray;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td.dado {
+    background-color: yellow;
+
+}
+
+.tabela2 {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+.tabela2 td {
+    border: 1px solid black;
+            padding: 8px;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical */
+}
+
+.tabela2 td.numero {
+    background-color: lightblue;
+    text-align: right;
+}
+
+
