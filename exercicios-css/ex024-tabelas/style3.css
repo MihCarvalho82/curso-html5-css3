@@ -19,12 +19,13 @@ h1 {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative; /* Necessário para o sticky header funcionar */
     margin-bottom: 20px;
 }
 
 td, th {
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px; 
 }
 
 caption {
@@ -39,6 +40,14 @@ caption {
 thead, tfoot {
     background-color: #383838;
     color: white;
+}
+
+/* Cabeçalho Fixo (Sticky Header) */
+thead > tr > th {
+    position: sticky;
+    top: -1px; /* Ajuste para evitar sobreposição da borda. Cola a borda no topo do navegador */
+    background-color: #383838;
+    z-index: 10;
 }
 
 /* Efeito Zebrado */
