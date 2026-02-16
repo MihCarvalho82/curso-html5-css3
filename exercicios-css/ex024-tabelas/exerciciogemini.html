@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio de Verificação - Michelle</title>
+    <style>
+        /* DESAFIO CSS 1: 
+           Aplique um background-image no body usando a shorthand correta.
+           A cor de fundo deve ser cinza claro, a imagem não deve repetir 
+           e deve estar fixa no centro. 
+        */
+
+        body {
+            background: rgba(211, 211, 211, 0.999) url('https://via.placeholder.com/150') no-repeat fixed center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: sans-serif;
+        }
+
+        /* DESAFIO CSS 2:
+           Faça com que as linhas pares da tabela (tr) tenham uma cor de fundo 
+           diferente (efeito zebra) usando pseudo-classe.
+        */
+
+tbody tr:nth-child(even) { background-color: rgb(124, 53, 53); } 
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- DESAFIO SEMÂNTICO: 
+         Esta tabela abaixo está funcional, mas faltam elementos que 
+         vimos no Módulo 3 que ajudam na acessibilidade e organização (thead, tbody, tfoot).
+    -->
+
+    <table>
+        <caption>Cronograma de Estudos - Michelle</caption>
+        
+        <thead>
+        <tr>
+            <th>Módulo</th>
+            <th>Assunto Principal</th>
+            <th>Status</th>
+        </tr>
+</thead>
+        <tbody>
+        <tr>
+            <td>Módulo 1</td>
+            <td>Ambientação e Git</td>
+            <td>Concluído</td>
+        </tr>
+        <tr>
+            <td>Módulo 2</td>
+            <td>Tags Básicas e Listas</td>
+            <td>Concluído</td>
+        </tr>
+        <tr>
+            <td>Módulo 3</td>
+            <td>Tabelas e Backgrounds</td>
+            <td>Em Avaliação</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3">Total de Módulos: 3</td>
+        </tr>
+        </tfoot>
+        <!-- DESAFIO DE CÓDIGO:
+             Adicione uma linha de rodapé que ocupe as 3 colunas (colspan) 
+             escrito "Total de Módulos: 3"
+        -->
+    </table>
+
+</body>
+
+</html>
