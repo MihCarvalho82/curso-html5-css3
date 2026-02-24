@@ -35,6 +35,22 @@ section#telefone {/* Não precisa de position, top, left ou transform!
 
     height: 627px;
     width: 311px; /* Um tamanho mais real de telefone */
-    background: url('../imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png') no-repeat;
+    background-size: contain;
+
+    /* Para centralizar o Iframe aqui dentro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+iframe#tela {
+    /*Em vez de position, definir apenas o tamanho da área visível do Iphone*/
+    width: 267px;
+    height: 471px; /*Substitui o antigo frameborder="0" */
+    border: none;
+    /* Se quiser boradas arredondadas como as do Iphone*/
+    border-radius: 5px;
 
 }
