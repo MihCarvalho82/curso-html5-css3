@@ -51,6 +51,24 @@ iframe#tela {
     height: 471px; /*Substitui o antigo frameborder="0" */
     border: none;
     /* Se quiser boradas arredondadas como as do Iphone*/
-    border-radius: 5px;
 
+}
+
+section#redes-sociais {
+    display: flex;
+    flex-direction: column; /* Coloca um ícone embaixo do outro */
+    align-items: flex-end;  /* Alinha tudo na direita */
+    padding: 20px;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 5px; /* O espaçamento é controlado aqui, não com <br> */
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s; /* Dica de 2026: uma pequena animação ao passar o mouse */
+}
+
+section#redes-sociais img:hover {
+    transform: scale(1.1); /* O ícone cresce um pouquinho quando o usuário passa o mouse */
 }
