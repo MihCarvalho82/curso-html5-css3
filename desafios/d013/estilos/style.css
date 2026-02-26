@@ -3,13 +3,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    /* Garante que padding não aumente o tamanho dos elementos */
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,body {
     width: 100%;
+    min-height: 100vh;
     background-color: black;
-}
+    }
 
 body {
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
@@ -17,58 +20,64 @@ body {
     background-attachment: fixed;
 }
 
-main { /* Em vez de relative, usar o flexbox para centralizartudo dentro dele
+main {
+    /* Em vez de relative, usar o flexbox para centralizartudo dentro dele
     position: relative;
     height: 100vh;
     background-color: green;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;/*min-heigth é melhor que heigth fixo*/
-    }
+    min-height: 100vh;
+    /*min-heigth é melhor que heigth fixo*/
+    gap: 20px;
+    /* Espaço entre o telefone e os ícones*/
+    padding: 20px;
+}
 
-section#telefone {/* Não precisa de position, top, left ou transform! 
+/* O TELEFONE */
+/* Não precisa de position, top, left ou transform! 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);*/
-
+section#telefone {
+    position: relative;
     height: 627px;
-    width: 311px; /* Um tamanho mais real de telefone */
+    width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
     background-size: contain;
-
-    /* Para centralizar o Iframe aqui dentro */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
+   }
 
 iframe#tela {
-    /*Em vez de position, definir apenas o tamanho da área visível do Iphone*/
-    width: 267px;
-    height: 471px; /*Substitui o antigo frameborder="0" */
-    border: none;
-    /* Se quiser boradas arredondadas como as do Iphone*/
+ position: relative;
+ top: 80px;
+ left: 22px;
+ width: 269px;
+ height: 471px;
 
 }
 
+/*REDES SOCIAIS (ORGANIZAÇÃO 2026) */
 section#redes-sociais {
     display: flex;
-    flex-direction: column; /* Coloca um ícone embaixo do outro */
-    align-items: flex-end;  /* Alinha tudo na direita */
-    padding: 20px;
+    flex-direction: column;
 }
 
 section#redes-sociais img {
     width: 50px;
-    margin: 5px; /* O espaçamento é controlado aqui, não com <br> */
+    margin: 5px;
+    /* O espaçamento é controlado aqui, não com <br> */
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s; /* Dica de 2026: uma pequena animação ao passar o mouse */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, filter 0.3s;
+    /* Dica de 2026: uma pequena animação ao passar o mouse */
 }
 
 section#redes-sociais img:hover {
-    transform: scale(1.1); /* O ícone cresce um pouquinho quando o usuário passa o mouse */
+    transform: scale(1.1);
+    /* O ícone cresce um pouquinho quando o usuário passa o mouse */
 }
+
+
+           

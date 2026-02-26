@@ -9,11 +9,16 @@
         * {
             margin: 0px;
             padding: 0px;
+            box-sizing: border-box;
         }
 
         body {
-            min-height: 100vh;
+            width: 100%;
+            height: 100vh;
+            /* overflow hidden impede que apareça a barra de rolagem dentro do iphone */
+            overflow: hidden;
             background: black url('imagens/tela-home.jpg') no-repeat top center;
+            background-size: cover;
         }
     </style>
 </head>
