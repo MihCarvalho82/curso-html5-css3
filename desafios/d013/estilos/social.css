@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Esconde as barras de rolagem*/
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        body {
+            width: 100%;
+            /* O background preto ajuda a camuflar qualquer micro-fresta. */
+            background-color: black;
+        }
+
+        img {
+            width: 100vw;
+            
+        }
+
+        a {
+            display: block;
+            background-color: darkred;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-weight: bolder;
+            outline: none;
+            text-decoration: none;
+            /* Remove contornos de clique e bordas */
+            outline: none;
+            border: none;
+        }
+
+        a:hover {
+            background-color: red;
+        }
