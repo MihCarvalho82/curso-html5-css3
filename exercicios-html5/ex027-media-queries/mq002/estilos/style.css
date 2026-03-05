@@ -1,2 +1,34 @@
 @charset "UTF-8";
 /* Configurações Gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box; /* Garante que o padding não aumente o tamanho dos elementos */
+}
+
+html, body {
+    /* Aula do Guanabara:*/
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+     /*  DICA DO GEMINI:
+     Usamos Flexbox para centralizar o conteúdo e evitar que ele 'flutue' sem controle 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Texto começa no topo 
+    background-repeat: no-repeat;
+    background-color: #233eff; 
+} */
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #1526a9;
+    padding: 10px;
+}
