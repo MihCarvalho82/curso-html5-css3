@@ -12,9 +12,20 @@ body {
     line-height: 1.5em;
 }
 
-p, h1, h2 {
-    margin-bottom: 10px;
+p {
+    margin-bottom: 20px;
     text-align: justify;
+}
+h1 {
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 20px;
+    line-height: 1.2em;
+    text-align: left;
 }
 
 header, section.normal {
@@ -22,6 +33,45 @@ header, section.normal {
 }
 
 section.flex-content {
+    padding: 20px;
     background-color: gray;
+gap: 30px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    gap:50px;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex:  1 0 400px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    width: 100%;        /* Ele vai ocupar toda a largura da div pai */
+    max-width: 500px;   /* Aqui você trava ele na mesma largura do seu texto! */
+    aspect-ratio: 16 / 9; /* Isso mantém a proporção de vídeo sem precisar de 'height' */
+}
